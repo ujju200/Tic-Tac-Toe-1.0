@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    background-color: cornsilk;
+    font-family: 'Pangolin', cursive;
+
+}
+header{
+    transform: translateY(-170px);
+}
+.page{
+    width: 330px;
+    height:305px;
+    background-color:greenyellow;
+    border: 30px solid blanchedalmond;
+    border-radius: 10px;
+    margin:auto auto;
+    display: block;
+    transform: translateY(-30px);
+}
+
+.btns{
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border:none;
+}
+.btns:hover{
+    border:2px dashed white;
+    border-radius: 12px;
+    background-color:darkorange;
+}
+
+
+
+#one-player-option,
+#table{
+    display: none;
+}
+
+td{
+    border:2px solid #333;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 6px;
+    font-size: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+#table{
+    padding: 20px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.back-icon{
+    position: relative;
+    top: 5px;
+}
+#result-icon{
+    display: none;
+    transform: translateY(-80px);
+}
+#score-board{
+    display: none;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 20px;
+    transform: translateY(-110px);
+    
+}
+#result{
+    transform: translateY(-90px);
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <p style="font-size: 30px;">Tic Tac Toe Game<br>
+        Have Fun &#128512;
+        </p>
+        <img src="Images/download.png" alt="game-icon" style="width: 50px;">
+    </header>
+    <div id="score-board">
+        <div>Player 1 Score<div id="player1-score">0</div></div>
+        <div>Player 2 Score<div id="player2-score">0</div></div>
+    </div>
+
+    <!-- <div>
+        <span>Player 1's Score</span>
+        <span>Player 2's Score</span>
+    </div> -->
+
+    <div id="result" style="font-size: 20px;"></div>
+    <div id="result-icon"><img src="Images/emoji_emotions_black_24dp.svg" alt="result-icon" style="width: 50px;"></div>
+    <div id="turn" style="font-size: 20px;"></div>
+    
+    <!--Two Player Game Page-->
+    <div id="Two-player-game" class="page">
+        <div>
+            <p>
+               Player1: Would you like to be X or O?
+            </p>
+        </div>
+        <button class="btns btnxo2">X</button>
+        <button class="btns btnxo2">O</button> 
+        <div>
+          <a href="index.html"><button class="btns">
+              <img src="Images/arrow_back_black_24dp.svg" alt="arrow-back" class="back-icon">
+            Back
+            </button></a>
+        </div>
+    </div>
+
+   
+    
+    <!--Main Game Board-->
+    <div class="page" id="table">
+       
+        
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+
+        </table>
+        <button class="btns" id="reset">Reset</button>
+      <a href="index.html">  <button class="btns" >Reset All</button></a>
+    </div>
+
+    <script src="TwoPlayer.js" type="text/javascript"></script>
+</body>
+</html>
